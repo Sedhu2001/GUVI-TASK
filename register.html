@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    <link rel="icon" href="./assets/registration form image.png" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <script src="./js/register.js"></script>
+    <script src="<a href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="fourdiv">
+      <br />
+      <h1 class="one">Registration Form</h1>
+      <h1 class="two">Welcome!</h1>
+      <a href="login.html"
+        ><button class="nine">Login</button></a
+      ><br /><br />
+    </div>
+    <form
+      class="four"
+      action="./php/register.php"
+      method="post"
+    >
+      <br />
+      <br />
+      <img src="./assets/background image(signup).png" class="seven" />
+      <label class="six"><b>First Name:</b></label
+      ><br />
+      <input
+        class="five"
+        type="text"
+        placeholder="First Name"
+        name="firstname"
+        required
+      /><br /><br />
+      <label class="six"><b>Last Name:</b></label
+      ><br />
+      <input
+        class="five"
+        type="text"
+        placeholder="Last Name"
+        name="lastname"
+        required
+      /><br /><br />
+      <label class="six"><b>Email-id:</b></label
+      ><br />
+      <input
+        class="five"
+        type="email"
+        placeholder="Email-id"
+        name="email"
+        required
+      /><br /><br />
+      <label class="six"><b>Gender:</b></label
+      ><br /><br />
+      <input type="radio" id="male" name="gender" value="m" /><label
+        for="male"
+        class="five"
+        >Male</label
+      >
+      <input type="radio" id="female" name="gender" value="f" /><label
+        for="female"
+        class="five"
+        >Female</label
+      ><br /><br />
+      <label class="six"
+        ><b>Password:</b><i class="ten">(more than 6 characters)</i></label
+      ><br />
+      <input
+        class="five"
+        type="password"
+        placeholder="Password"
+        name="password1"
+        required
+      /><br /><br />
+      <label class="six"><b> Confirm Password:</b></label
+      ><br />
+      <input
+        class="five"
+        type="password"
+        placeholder="!!!!!!!!"
+        id="myinput"
+        name="password2"
+        required
+      /><br />
+      <input id="check" type="checkbox" onclick="myFunction()" class="eight" />
+      <label class="eight" for="check"> Show Password</label><br /><br /><br />
+      <a href="register.html"
+        ><input type="button" / value="Reset"></a
+      >
+      <input type="submit" / value="Submit" >
+
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </form>
+  </body>
+</html>
