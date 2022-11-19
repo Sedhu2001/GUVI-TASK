@@ -1,0 +1,23 @@
+body {
+    background-image: url("picture 1.jpg");
+    background-size: cover;
+  }
+  .bar {
+    display: inline-block;
+    padding-left:4%;
+  }
+  .bar :hover {
+    color: black;
+    background-color: rgb(255, 153, 0);
+  }
+  .bar button {
+    margin-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 12px 25px;
+  }
+  .bar a {
+    text-decoration: none;
+  }
